@@ -5,8 +5,6 @@ This repository presents a multi-perspective approach to modeling and classifyin
 ### Authors: 
 Rebecca Wang: lufanw@uw.edu, Anja Vogt: anjav@uw.edu, Alexis Georgiades: alexisg8@uw.edu
 
-## Repository Structure
-
 ## Project Overview
 
 This project was developed as part of an research project in the AMATH Department at the University of Washington (Spring 2025). The goal is to simulate, analyze, and predict cancer progression under varying biological conditions using computational and data-driven methods.
@@ -26,16 +24,6 @@ To build image classification models that can distinguish **normal** cells from 
 **Source**  
 - **Dataset:** Gupta, A., & Gupta, R. (2019). *ALL Challenge dataset of ISBI 2019*. The Cancer Imaging Archive. [DOI: 10.7937/tcia.2019.dc64i46r](https://doi.org/10.7937/tcia.2019.dc64i46r)
 - **License:** The dataset is publicly available via Kaggle and The Cancer Imaging Archive. No formal license was specified, but users are encouraged to cite the authors when using the dataset in research or applications.
-
-**Citation**  
-Gupta, A., & Gupta, R. (2019). *ALL Challenge dataset of ISBI 2019*. The Cancer Imaging Archive. https://doi.org/10.7937/tcia.2019.dc64i46r
-
-**Related Publications**  
-1. A. Gupta et al., “GCTI-SN: Geometry-Inspired Chemical and Tissue Invariant Stain Normalization of Microscopic Medical Images”, under review.  
-2. R. Gupta et al., “Stain Color Normalization... in Multiple Myeloma,” IMW 2017.  
-3. R. Duggal et al., “Overlapping Cell Nuclei Segmentation...” ICVGIP 2016.  
-4. R. Duggal et al., “Segmentation of overlapping/touching WBC nuclei...,” AIIMS 2016.  
-5. R. Duggal et al., “SD-Layer: Stain Deconvolutional Layer...,” MICCAI 2017. [DOI](https://doi.org/10.1007/978-3-319-66179-7_50)
 
 ## 1. `ODE.ipynb` — Deterministic Modeling
 
@@ -59,5 +47,11 @@ Applies supervised learning to classify the long-term behavior of a system using
 - Evaluated with accuracy, confusion matrix, classification report, and ROC curves.
 - Trained CNN model achieves ~85% validation accuracy in distinguishing regimes.
 
-## Reference Publications
-[Stochastic model for cell population dynamics quantifies homeostasis in colonic crypts and its disruption in early tumorigenesis](https://royalsocietypublishing.org/doi/full/10.1098/rspb.2023.1020)
+## Publication Citation
+- E. M. Iams et al., “Stochastic model for cell population dynamics quantifies homeostasis in colonic crypts and its disruption in early tumorigenesis,” Proceedings of the Royal Society B: Biological Sciences, 2023. DOI: 10.1098/rspb.2023.1020
+- A. Gupta et al., “GCTI-SN: Geometry-Inspired Chemical and Tissue Invariant Stain Normalization of Microscopic Medical Images,” under review.
+- R. Gupta et al., “Stain Color Normalization and Segmentation of Plasma Cells in Microscopic Images as a Prelude to Development of Computer Assisted Automated Disease Diagnostic Tool in Multiple Myeloma,” IMW, 2017.
+- R. Duggal et al., “Overlapping Cell Nuclei Segmentation in Microscopic Images Using Deep Belief Networks,” ICVGIP, 2016.
+- R. Duggal et al., “Segmentation of overlapping/touching white blood cell nuclei using artificial neural networks,” AIIMS Hemato-Oncopathology CME, 2016.
+- R. Duggal et al., “SD-Layer: Stain Deconvolutional Layer for CNNs in Medical Microscopic Imaging,” MICCAI 2017, LNCS 10435, pp. 435–443. DOI: 10.1007/978-3-319-66179-7_50
+
