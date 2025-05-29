@@ -3,7 +3,7 @@
 This repository presents a multi-perspective approach to modeling and classifying cancer cell population dynamics. It combines **deterministic ODE modeling**, **stochastic simulation (Gillespie algorithm)**, and **machine learning (ML)** techniques to better understand the conditions under which cancerous populations go extinct or grow uncontrollably.
 
 ### Authors: 
-Rebecca Wang: lufanw@uw.edu, Anja Vogt: anjav@uw.edu, Alexis Georgiades: alexisg8@uw.edu
+Rebecca Wang: lufanw@uw.edu, Alexis Georgiades: alexisg8@uw.edu, Anja Vogt: anjav@uw.edu
 
 ## Project Overview
 
