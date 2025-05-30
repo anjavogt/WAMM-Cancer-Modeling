@@ -50,8 +50,3 @@ We implement a complete pipeline of image-based leukemia classification, combini
 - **Dataset Source:** [Leukemia Classification Dataset](https://www.kaggle.com/datasets/andrewmvd/leukemia-classification/data) on Kaggle – curated from the ALL Challenge dataset used in ISBI 2019.
 - Cole, L. (2020, April 14). Gillespie Algorithm. Lewis Cole Blog. https://lewiscoleblog.com/gillespie-algorithm
 - K. Mamis et al., “Stochastic model for cell population dynamics quantifies homeostasis in colonic crypts and its disruption in early tumorigenesis,” Proceedings of the Royal Society B: Biological Sciences, 2023. DOI: 10.1098/rspb.2023.1020
-- A. Gupta et al., “GCTI-SN: Geometry-Inspired Chemical and Tissue Invariant Stain Normalization of Microscopic Medical Images,” under review.
-- R. Gupta et al., “Stain Color Normalization and Segmentation of Plasma Cells in Microscopic Images as a Prelude to Development of Computer Assisted Automated Disease Diagnostic Tool in Multiple Myeloma,” IMW, 2017.
-- R. Duggal et al., “Overlapping Cell Nuclei Segmentation in Microscopic Images Using Deep Belief Networks,” ICVGIP, 2016.
-- R. Duggal et al., “Segmentation of overlapping/touching white blood cell nuclei using artificial neural networks,” AIIMS Hemato-Oncopathology CME, 2016.
-- R. Duggal et al., “SD-Layer: Stain Deconvolutional Layer for CNNs in Medical Microscopic Imaging,” MICCAI 2017, LNCS 10435, pp. 435–443. DOI: 10.1007/978-3-319-66179-7_50
