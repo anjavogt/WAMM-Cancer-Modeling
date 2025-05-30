@@ -40,7 +40,6 @@ Uses the **Gillespie algorithm** to simulate cell-level population changes under
 
 ## 3. `ML.ipynb` — ML-based Classification
 
-Applies supervised learning to classify the long-term behavior of a system using early time-series signals:
 - Feature extraction and PCA for dimensionality reduction.
 - Models include Random Forest, Ridge Classifier, KNN, SVM, and CNN.
 - Evaluated with accuracy, confusion matrix, classification report, and ROC curves.
