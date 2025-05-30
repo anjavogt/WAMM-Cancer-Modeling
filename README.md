@@ -40,7 +40,7 @@ Uses the **Gillespie algorithm** to simulate cell-level population changes under
 
 ## 3. `ML.ipynb` — ML-based Classification
 
-We implement a complete pipeline of image-based leukemia classification, combining PCA for dimensionality reduction, centroid, and traditional classifiers while maintaining generalization and leveraging real-world medical image imperfections.
+Implements a complete pipeline of image-based leukemia classification, combining PCA for dimensionality reduction, centroid, and traditional classifiers while maintaining generalization and leveraging real-world medical image imperfections.
 - Feature extraction and PCA for dimensionality reduction.
 - Models include Random Forest, Ridge Classifier, KNN, SVM, and CNN.
 - Evaluated with accuracy, confusion matrix, classification report, and ROC curves.
