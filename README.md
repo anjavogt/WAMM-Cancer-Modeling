@@ -1,13 +1,13 @@
 # Cancer Progression Modeling
 
-This repository presents a multi-perspective approach to modeling and classifying cancer cell population dynamics. It combines **deterministic ODE modeling**, **stochastic simulation (Gillespie algorithm)**, and **machine learning (ML)** techniques to better understand the conditions under which cancerous populations go extinct or grow uncontrollably.
+This repository presents a multi-perspective approach to modeling and classifying cancer cell population dynamics. It combines **deterministic ODE modeling**, **stochastic simulation (Gillespie algorithm)**, and **machine learning (ML)** techniques to better understand the conditions under which colon cell populations (stem cells, transit amplifying (TA), and fully differentiated (FD)) go extinct or grow uncontrollably.
 
 ### Authors: 
 Rebecca Wang: lufanw@uw.edu, Alexis Georgiades: alexisg8@uw.edu, Anja Vogt: anjav@uw.edu
 
 ## Project Overview
 
-This project was developed as part of an research project in the AMATH Department at the University of Washington (Spring 2025). The goal is to simulate, analyze, and predict cancer progression under varying biological conditions using computational and data-driven methods.
+This project was developed as part of a research project in the AMATH Department at the University of Washington (Spring 2025). The goal is to simulate, analyze, and predict cell population changes under varying biological conditions using computational and data-driven methods.
 
 ## Dataset Information
 
@@ -27,7 +27,7 @@ To build image classification models that can distinguish **normal** cells from 
 
 ## 1. `ODE.ipynb` — Deterministic Modeling
 
-Implements a system of **Ordinary Differential Equations (ODEs)** to describe the average behavior of interacting cell populations (e.g., healthy vs. cancerous). Key features:
+Implements a system of **Ordinary Differential Equations (ODEs)** to describe the average behavior of interacting cell populations (e.g., TA vs FD cells). Key features:
 - Simulates long-term behaviors: homeostasis, extinction, overgrowth.
 - Visualizes dynamics using time series and phase space plots.
 - Provides interpretability of how parameters drive system behavior.
