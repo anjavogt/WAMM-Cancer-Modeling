@@ -1,6 +1,6 @@
 # Cancer Progression Modeling
 
-This repository presents a multi-perspective approach to modeling and classifying cancer cell population dynamics. It combines **deterministic ODE modeling**, **stochastic simulation (Gillespie algorithm)**, and **machine learning (ML)** techniques to better understand the conditions under which colon cell populations (stem cells, transit amplifying (TA), and fully differentiated (FD)) go extinct or grow uncontrollably.
+This repository presents a multi-perspective approach to modeling and classifying cancer cell population dynamics. It combines **deterministic ODE modeling**, **stochastic simulation (Gillespie algorithm)**, and **machine learning (ML)** techniques to better understand the conditions under which colon cell populations, stem cells, transit amplifying (TA), and fully differentiated (FD), cells go extinct or grow uncontrollably.
 
 ### Authors: 
 Rebecca Wang: lufanw@uw.edu, Alexis Georgiades: alexisg8@uw.edu, Anja Vogt: anjav@uw.edu
@@ -29,15 +29,14 @@ To build image classification models that can distinguish **normal** cells from 
 
 Implements a system of **Ordinary Differential Equations (ODEs)** to describe the average behavior of interacting cell populations (e.g., TA vs FD cells). Key features:
 - Simulates long-term behaviors: homeostasis, extinction, overgrowth.
-- Visualizes dynamics using time series and phase space plots.
+- Visualizes dynamics using time series, phase space plots, and stability analyses.
 - Provides interpretability of how parameters drive system behavior.
 
 ## 2. `Gillespie.ipynb` — Stochastic Simulation
 
 Uses the **Gillespie algorithm** to simulate cell-level population changes under randomness. Features:
 - Captures inherent biological variability.
-- Generates multiple stochastic trajectories per regime.
-- Labels data by outcomes (extinction vs. overgrowth) for ML use.
+- Generates multiple stochastic trajectories.
 
 ## 3. `ML.ipynb` — ML-based Classification
 
@@ -48,10 +47,10 @@ Applies supervised learning to classify the long-term behavior of a system using
 - Trained CNN model achieves ~85% validation accuracy in distinguishing regimes.
 
 ## Publication Citation
-- E. M. Iams et al., “Stochastic model for cell population dynamics quantifies homeostasis in colonic crypts and its disruption in early tumorigenesis,” Proceedings of the Royal Society B: Biological Sciences, 2023. DOI: 10.1098/rspb.2023.1020
+- Cole, L. (2020, April 14). Gillespie Algorithm. Lewis Cole Blog. https://lewiscoleblog.com/gillespie-algorithm
+- K. Mamis et al., “Stochastic model for cell population dynamics quantifies homeostasis in colonic crypts and its disruption in early tumorigenesis,” Proceedings of the Royal Society B: Biological Sciences, 2023. DOI: 10.1098/rspb.2023.1020
 - A. Gupta et al., “GCTI-SN: Geometry-Inspired Chemical and Tissue Invariant Stain Normalization of Microscopic Medical Images,” under review.
 - R. Gupta et al., “Stain Color Normalization and Segmentation of Plasma Cells in Microscopic Images as a Prelude to Development of Computer Assisted Automated Disease Diagnostic Tool in Multiple Myeloma,” IMW, 2017.
 - R. Duggal et al., “Overlapping Cell Nuclei Segmentation in Microscopic Images Using Deep Belief Networks,” ICVGIP, 2016.
 - R. Duggal et al., “Segmentation of overlapping/touching white blood cell nuclei using artificial neural networks,” AIIMS Hemato-Oncopathology CME, 2016.
 - R. Duggal et al., “SD-Layer: Stain Deconvolutional Layer for CNNs in Medical Microscopic Imaging,” MICCAI 2017, LNCS 10435, pp. 435–443. DOI: 10.1007/978-3-319-66179-7_50
-
