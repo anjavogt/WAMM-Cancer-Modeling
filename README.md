@@ -40,12 +40,14 @@ Uses the **Gillespie algorithm** to simulate cell-level population changes under
 
 ## 3. `ML.ipynb` — ML-based Classification
 
+We implement a complete pipeline of image-based leukemia classification, combining PCA for dimensionality reduction, centroid, and traditional classifiers while maintaining generalization and leveraging real-world medical image imperfections.
 - Feature extraction and PCA for dimensionality reduction.
 - Models include Random Forest, Ridge Classifier, KNN, SVM, and CNN.
 - Evaluated with accuracy, confusion matrix, classification report, and ROC curves.
 - Trained CNN model achieves ~85% validation accuracy in distinguishing regimes.
 
 ## Publication Citation
+- **Dataset Source:** [Leukemia Classification Dataset](https://www.kaggle.com/datasets/andrewmvd/leukemia-classification/data) on Kaggle – curated from the ALL Challenge dataset used in ISBI 2019.
 - Cole, L. (2020, April 14). Gillespie Algorithm. Lewis Cole Blog. https://lewiscoleblog.com/gillespie-algorithm
 - K. Mamis et al., “Stochastic model for cell population dynamics quantifies homeostasis in colonic crypts and its disruption in early tumorigenesis,” Proceedings of the Royal Society B: Biological Sciences, 2023. DOI: 10.1098/rspb.2023.1020
 - A. Gupta et al., “GCTI-SN: Geometry-Inspired Chemical and Tissue Invariant Stain Normalization of Microscopic Medical Images,” under review.
