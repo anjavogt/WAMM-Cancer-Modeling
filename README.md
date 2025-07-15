@@ -1,4 +1,4 @@
-# Cancer Progression Modeling
+# Cancer Cell Population Modeling
 
 This repository presents a multi-perspective approach to modeling and classifying cancer cell population dynamics. It combines **deterministic ODE modeling**, **stochastic simulation (Gillespie algorithm)**, and **machine learning (ML)** techniques to better understand the conditions under which colon cell populations, stem cells, transit amplifying (TA), and fully differentiated (FD), cells go extinct or grow uncontrollably.
 
