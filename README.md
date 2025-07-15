@@ -7,7 +7,7 @@ Rebecca Wang: lufanw@uw.edu, Alexis Georgiades: alexisg8@uw.edu, Anja Vogt: anja
 
 ## Project Overview
 
-This project was developed as part of a research project in the AMATH Department at the University of Washington (Spring 2025). The goal is to simulate, analyze, and predict cell population changes under varying biological conditions using computational and data-driven methods.
+This project was developed as part of a research project in the AMATH Department at the University of Washington (Spring 2025). The goal is to simulate, analyze, and predict cell population changes under varying biological conditions using computational and data-driven methods. We begin by reproducing and expanding upon the colorectal cancer models described by Mamis et al, https://royalsocietypublishing.org/doi/full/10.1098/rspb.2023.1020. Then we try different ML classifiers to work at seperating malignant vs. non-malignant cells from a public data set.
 
 ## Dataset Information
 
